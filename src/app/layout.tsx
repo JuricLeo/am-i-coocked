@@ -26,6 +26,7 @@ export default function RootLayout({
         className={`${font.className} antialiased bg-background text-white max-w-3xl mx-auto`}
       >
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
