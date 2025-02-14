@@ -52,9 +52,9 @@ export const Calculator = () => {
     const totalHours = Number(weeks) * 168 + Number(days) * 24 + Number(hours);
 
     if (totalHours <= 24) {
-      setResultImage("/coocked.webp");
+      setResultImage("/cooked.webp");
     } else {
-      setResultImage("/not-coocked.webp");
+      setResultImage("/not-cooked.webp");
     }
     console.log("Current resultImage:", resultImage);
 
@@ -71,11 +71,11 @@ export const Calculator = () => {
           <p className="text-2xl text-center mb-12 font-bold text-muted-foreground flex items-baseline">
             You
             <span className="text-primary mx-2 whitespace-nowrap">
-              {resultImage === "/coocked.webp" ? "ARE" : "ARE NOT"}
+              {resultImage === "/cooked.webp" ? "ARE" : "ARE NOT"}
             </span>
-            coocked!
+            cooked!
             <span className="text-muted-foreground/80 ml-2 text-sm">
-              {resultImage === "/not-coocked.webp" && "(yet...)"}
+              {resultImage === "/not-cooked.webp" && "(yet...)"}
             </span>
           </p>
           <Image

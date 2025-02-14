@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <main className="py-20 px-4 w-full min-h-screen relative">
       <h1 className="text-center text-5xl font-bold text-primary italic">
-        Am I coocked??
+        Am I cooked??
       </h1>
       <p className="text-center text-muted-foreground mt-8 text-xl max-w-2xl mx-auto">
         Haven&apos;t started studying yet? Enter the amount of time that&apos;s
-        left until your exam and we will calculate if YOU ARE COOCKED (or not).
+        left until your exam and we will calculate if YOU ARE COOKED (or not).
       </p>
       <Calculator />
 

@@ -8,10 +8,10 @@ const font = Rubik({
 });
 
 export const metadata: Metadata = {
-  title: "Coocked?",
+  title: "Cooked?",
   description:
-    "Find out if you're totally coocked or if you still have a chance to start studying! Enter the amount of time that's left until your exam and brace yourself.",
-  keywords: ["coocked", "study hours", "exam stress", "am I coocked?"],
+    "Find out if you're totally cooked or if you still have a chance to start studying! Enter the amount of time that's left until your exam and brace yourself.",
+  keywords: ["cooked", "study hours", "exam stress", "am I cooked?"],
 };
 
 export default function RootLayout({
