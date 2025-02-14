@@ -14,8 +14,8 @@ export default function Home() {
       <Calculator />
 
       <footer className="absolute bottom-6 left-0 right-0 py-4 text-center text-muted-foreground">
-        <div className="flex items-center justify-center gap-2">
-          Made by
+        <div className="flex flex-col md:flex-row items-center justify-center gap-2">
+          <span className="whitespace-nowrap">Made by</span>
           <a
             href="https://github.com/JuricLeo"
             className="flex items-center gap-2 text-emerald-700"
@@ -25,7 +25,9 @@ export default function Home() {
               JuricLeo<span className="text-muted-foreground">,</span>
             </span>
           </a>
-          with <span className="mx-1">❤️</span> for stressed students
+          <p className="whitespace-nowrap">
+            with <span className="mx-1">❤️</span> for stressed students
+          </p>
         </div>
       </footer>
     </main>

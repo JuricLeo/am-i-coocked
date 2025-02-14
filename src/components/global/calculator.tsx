@@ -65,7 +65,7 @@ export const Calculator = () => {
   };
 
   return (
-    <div className="max-w-[1000px] mx-auto mt-16 backgrop-blur bg-radial from-secondary to-transparent rounded-lg p-20 mb-12">
+    <div className="max-w-[1000px] mx-auto mt-16 backgrop-blur bg-radial from-secondary to-transparent rounded-lg px-4 md:px-20 py-20 mb-24 md:mb-12">
       {showResult ? (
         <div className="animate-fade-in flex flex-col items-center">
           <p className="text-2xl text-center mb-12 font-bold text-muted-foreground flex items-baseline">
