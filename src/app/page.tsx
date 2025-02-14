@@ -8,8 +8,8 @@ export default function Home() {
         Am I coocked??
       </h1>
       <p className="text-center text-muted-foreground mt-8 text-xl max-w-2xl mx-auto">
-        Haven't started studying yet? Enter the amount of time that's left until
-        your exam and we will calculate if YOU ARE COOCKED (or not).
+        Haven&apos;t started studying yet? Enter the amount of time that&apos;s
+        left until your exam and we will calculate if YOU ARE COOCKED (or not).
       </p>
       <Calculator />
 
@@ -21,7 +21,9 @@ export default function Home() {
             className="flex items-center gap-2 text-emerald-700"
           >
             <GithubIcon className="w-4 h-4" />
-            <span>JuricLeo<span className="text-muted-foreground">,</span></span>
+            <span>
+              JuricLeo<span className="text-muted-foreground">,</span>
+            </span>
           </a>
           with <span className="mx-1">❤️</span> for stressed students
         </div>
